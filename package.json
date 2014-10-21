@@ -1,0 +1,11 @@
+{
+  "name": "creativision",
+  "version": "0.0.1",
+  "private": true,
+  "author": "曹返",
+  "scripts": {
+    "start": "node ./bin/start"
+  },
+  "dependencies": {
+  }
+}

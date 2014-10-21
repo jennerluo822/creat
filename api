@@ -1,0 +1,9 @@
+o2c.log = console.log;
+
+o2c.isObj() => true/flase;
+o2c.isFn() => true/false;
+o2c.isArray() => true/false;
+o2c.isString() => true/false;
+
+o2c.error(info) => info;exit;
+o2c.point(fuc,arguments) => function fuc (arguments){}

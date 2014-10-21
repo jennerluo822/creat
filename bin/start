@@ -1,0 +1,14 @@
+//加载全局污染模块，默认污染空间为 'o2c'
+require('global');
+
+//加载配置完成的主函数
+var creat = require('../conf/conf.js');
+
+//设置监听端口,若无此项默认监听80
+creat.set('port','80')
+
+//监听端口=》单线程,2选1
+//creat.listen(creat.get('port'));
+
+//监听端口=》全线程，2选1
+creat.mlisten(creat.get('port'))
