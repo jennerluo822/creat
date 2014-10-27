@@ -6,4 +6,4 @@ o2c.isArray() => true/false;
 o2c.isString() => true/false;
 
 o2c.error(info) => info;exit;
-o2c.point(fuc,arguments) => function fuc (arguments){}
+o2c.point(fuc,arguments) => function fuc (arguments){};
